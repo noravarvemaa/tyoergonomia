@@ -1,1 +1,4 @@
 # tyoergonomia
+# lit
+# slay
+# wadap
