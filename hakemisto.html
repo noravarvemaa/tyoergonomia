@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Lomake</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="tyyli.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+        
+        <article>
+            <header>
+            <h1>Haaga-Helian työergonomia</h1>
+                <p>Tämä kysely on tehty Haaga-Helian opiskelijoille. Kyselyn tavoitteena on kartoittaa opiskelijoiden kokemusta kampusten työskentelyergonomiasta.</p>
+            
+            </header>
+
+        <div class="lomake">
+<form action="/action_page.php">
+    
+    1. Sukupuoli 
+    <br>
+    <br>
+     <input type="radio" id="male" name="gender" value="male" required>
+  <label for="male">mies</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">nainen</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">muu</label>
+    <br>
+    <br>
+    <br>
+    
+   2. Ikä
+    <br>
+    <br>
+     <input type="radio" id="alle25" name="ika" value="alle25" required>
+  <label for="alle25">0-25 v</label><br>
+  <input type="radio" id="2635" name="ika" value="2635">
+  <label for="2635">26-35 v</label><br>
+  <input type="radio" id="yli36" name="ika" value="yli36">
+  <label for="yli36">36+ v</label>
+    <br>
+    <br>
+    <br>
+    
+    3. Miten koulussasi näkyy työergonomiaan panostaminen?
+    <br>
+    <br>
+    <textarea id="panostaminen" rows="4" cols="50"></textarea>
+     <br>
+    <br>
+    <br>
+    
+  4. Koetko panostamisen riittävänä?
+    <br>
+    <br>
+    <input type="radio" id="kyllä" name="panostus" value="kyllä" required>
+  <label for="kyllä">Kyllä</label><br>
+  <input type="radio" id="En" name="panostus" value="En">
+  <label for="En">En</label><br>
+  <input type="radio" id="enosaa" name="panostus" value="enosaa">
+  <label for="enosaa">En osaa sanoa</label>
+    <br>
+    <br>
+    <br>
+    
+   5. Minkälaisia seuraamuksia huonolla työergonomialla on ollut hyvinvointisi kannalta? 
+    <br>Voit valita useamman.
+    <br>
+    <br>
+    <input type="checkbox" id="henkisia" name="seuraamuksia" value="henkisia" required>
+    <label for="henkisia">Henkisiä seuraamuksia</label><br>
+    <input type="checkbox" id="fyysisia" name="seuraamuksia" value="fyysisia">
+    <label for="fyysisia">Fyysisiä seuraamuksia</label><br>
+    <input type="checkbox" id="ei" name="seuraamuksia" value="ei">
+    <label for="ei">Ei ole ollut seuraamuksia</label><br>
+    <input type="checkbox" id="enosaasanoa" name="seuraamuksia" value="enosaasanoa">
+    <label for="enosaasanoa">En osaa sanoa</label><br>
+    <br>
+    <br>
+    <br>
+    6. Haluatko kertoa tarkemmin?
+    <br>
+    <br>
+    <textarea id="tarkemmin" rows="4" cols="50"></textarea>
+    <br>
+    <br>
+    <br>
+    
+    7. Onko sinulla omia keinoja, joilla ylläpidät työergonomiaasi?
+    <br>
+    <br>
+    <input type="radio" id="kylla" name="keinoja" value="kylla" required>
+    <label for="kylla">Kyllä, mitä?</label><br>
+    <textarea id="kylla" rows="4" cols="50"></textarea><br>
+    <input type="radio" id="ei" name="keinoja" value="ei">
+    <label for="ei">Ei</label>
+    <br>
+    <br>
+    <br>
+    <input type="submit" id="laheta" value="Lähetä vastaukset">
+    <br>
+    <br>
+     <br>
+    <br>
+    <br>
+     <br>
+    <br>
+         
+</form>
+</div>
+        </article>
+        
+</body>
+</html>
